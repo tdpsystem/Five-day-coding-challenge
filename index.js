@@ -2,17 +2,17 @@ const ingredientsIcon = document.getElementById("ingredients");
 const preparatitonsIcon = document.getElementById("preparations");
 
 function ingredientsHover() {
-    ingredientsIcon.firstElementChild.firstElementChild.style.fontSize = "300%";
+    ingredientsIcon.firstElementChild.style.fontSize = "300%";
 }
 
 function ingredientsNormal() {
-    ingredientsIcon.firstElementChild.firstElementChild.style.fontSize = "100%";   
+    ingredientsIcon.firstElementChild.style.fontSize = "100%";   
 }
 
 function preparationsHover() {
-    preparatitonsIcon.firstElementChild.firstElementChild.style.fontSize = "300%"
+    preparatitonsIcon.firstElementChild.style.fontSize = "300%"
 }
 
 function preparationsNormal() {
-    preparatitonsIcon.firstElementChild.firstElementChild.style.fontSize = "100%"
+    preparatitonsIcon.firstElementChild.style.fontSize = "100%"
 }
